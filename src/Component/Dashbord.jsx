@@ -11,7 +11,6 @@ const Dashboard = () => {
   console.log(products);
   return (
     <div>
-      <h1>Welcome Ankit</h1>
       <div
         style={{
           display: "flex",
