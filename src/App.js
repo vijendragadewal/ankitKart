@@ -1,9 +1,12 @@
 import Dashboard from "./Component/Dashbord";
+import { Login } from "./Component/Login";
+import { Routes, Route } from "react-router-dom";
 function App() {
   return (
-    <div>
-      <Dashboard />
-    </div>
+    <Routes>
+      <Route exact path="/" element={<Dashboard />} />
+      <Route exact path="/login" element={<Login />} />
+    </Routes>
   );
 }
 
